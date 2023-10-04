@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/imges/prayer-rug.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="main.js">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <title>Prayer Timings</title>
+</head>
+<body dir="rtl">
+
+  <!-- بداية كود اسم المحافظة والتاريخ -->
+  <div id="appCity">
+    <h1 id="city">الفيوم</h1>
+    <h2 id="day-time"></h2>
+    <hr>
+  </div>
+<!-- نهاية كود اسم المحافظة والتاريخ -->
+
+<!-- بداية كود بوكس الوقت -->
+<div class="center" id="contanierapp">
+
+
+  <div class="card" >
+
+    <div class="haeder" >
+      <h1>الفجر</h1>
+    </div>
+    <div class="time center" >
+      <h1 id="Fajr-time"></h1>
+    </div>
+  </div>
+
+  <div class="card" >
+
+    <div class="haeder" >
+      <h1>الشروق</h1>
+    </div>
+    <div class="time center" >
+      <h1 id="Sunrise-time"></h1>
+    </div>
+  </div>
+
+  <div class="card" >
+
+    <div class="haeder" >
+      <h1>الظهر</h1>
+    </div>
+    <div class="time center" >
+      <h1 id="Dhuhr-time"></h1>
+    </div>
+  </div>
+
+
+  <div class="card" >
+
+    <div class="haeder" >
+      <h1>العصر</h1>
+    </div>
+    <div class="time center" >
+      <h1 id="Asr-time"></h1>
+    </div>
+  </div>
+
+  <div class="card" >
+
+    <div class="haeder" >
+      <h1>المغرب</h1>
+    </div>
+    <div class="time center" >
+      <h1 id="Maghrib-time"></h1>
+    </div>
+  </div>
+
+  <div class="card" >
+
+    <div class="haeder" >
+      <h1>العشاء</h1>
+    </div>
+    <div class="time center" >
+      <h1 id="Isha-time"></h1>
+    </div>
+  </div>
+
+</div>
+
+  
+
+<!-- نهاية كود بوكس الوقت -->
+
+<!-- بداية كود تحديد المحافظة -->
+<div class="appselected center" >
+
+  <div class="selected " >
+
+    <select name="" id="btn-selected">
+      
+    </select>
+  </div>
+
+</div>
+
+<!-- نهاية كود تحديد المحافظة -->
+<script src="/node_modules/axios/dist/axios.min.js"></script>
+<script src="/main.js"></script>
+</body>
+</html>

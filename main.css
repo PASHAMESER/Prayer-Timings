@@ -1,0 +1,86 @@
+body{
+  background: linear-gradient(45deg , #240165 , #05001c);
+  color: white;
+  font-family: "Tajawal";
+  height: 100vh;
+}
+::selection{
+  background-color: #240165;
+  color: white;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+}
+
+#appCity {
+  margin-top: 100px;
+  margin-right: 50px;
+}
+#appCity h1 {
+  font-weight: 400;
+  font-size: 150px;
+}
+#appCity h2 {
+  font-weight: 200;
+  font-size: 25px;
+}
+#appCity hr {
+  height: 2px;
+  background-color: #5200e1;
+  border: none;
+}
+#contanierapp {
+  height: 300px;
+  margin-top: 100px;
+  justify-content: space-around;
+}
+.card {
+  width: 12%;
+  height: 200px;
+  box-shadow: 0px 10px 5px rgb(0 0 0 / 30%);
+}
+.card .haeder {
+  background: linear-gradient(45deg , #5709ee , #7a37bf);
+  padding: 5px;
+}
+.card .haeder h1 {
+  font-weight: 400;
+}
+.card .time {
+  background-color: white;
+  height: 95%;
+}
+.card .time h1 {
+  font-weight: 800;
+}
+.card .time h1 {
+  color: black;
+  font-size: 50px;
+}
+
+.appselected {
+  text-align: center;
+}
+.appselected .selected{
+  margin-top: 100px;
+}
+.appselected .selected #btn-selected{
+  width: 250px;
+  padding: 10px;
+  border-radius: 50px;
+  font-size: 25px;
+  background: #5709ee;
+  border: none;
+  font-family: "Tajawal";
+  color: white;
+  cursor: pointer;
+}
+/* .appselected .selected #btn-selected option:hover {
+  background-color: #240165;
+} */
