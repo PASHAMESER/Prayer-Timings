@@ -58,7 +58,6 @@ function getPrayersTimingsOfCity(cityName){
   
   
     document.getElementById("day-time").innerHTML =  dateDAY_AR + " " + dateDAY_M
-    console.log(response.data.data);
   })
   .catch(function (error) {
     console.log(error);
