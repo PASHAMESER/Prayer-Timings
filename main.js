@@ -1,4 +1,4 @@
-//http://api.aladhan.com/v1/timingsByCity?country=eg&city=Faiyum
+//https://api.aladhan.com/v1/timingsByCity?country=eg&city=Faiyum
 
 let cities = [
   {
@@ -43,7 +43,7 @@ function getPrayersTimingsOfCity(cityName) {
   };
 
   axios
-    .get("http://api.aladhan.com/v1/timingsByCity", { params: params })
+    .get("https://api.aladhan.com/v1/timingsByCity", { params: params })
     .then(function (response) {
       const timings = response.data.data.timings;
       fillTimeForPrayer("Fajr-time", timings.Fajr);
